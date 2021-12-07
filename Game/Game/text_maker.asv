@@ -1,0 +1,26 @@
+close all
+clear
+clc
+text_raw_directory = simpleGameEngine('retro_pack.png',16,16,5,[0,0,0]);
+text_raw_grid = ones(32,32);
+
+for i = 1:32
+    for j = 1:32
+        text_raw_grid(j,i) = j+32*(i-1);
+
+    end
+
+end
+for i = 30:32
+    for j = 19:32
+        text_grid(j,i) = j+32*(i-1);
+
+    end
+
+end
+
+letter = 1; 
+switch letter
+    case 1 
+
+end

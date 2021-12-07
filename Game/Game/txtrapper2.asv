@@ -1,0 +1,10 @@
+function txtrapper2(text)
+
+
+new_text = (textwrap("Come on, rise and shine sleepy head, theres a whole world out there's, maybe one day you'll actually get to touch some grass.",60))
+new_text{1}
+[row,~] = size(new_text);
+
+for i = 1:row
+    fprintf(text)
+end
